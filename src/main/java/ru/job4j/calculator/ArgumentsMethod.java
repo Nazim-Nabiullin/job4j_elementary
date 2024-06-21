@@ -9,5 +9,8 @@ public class ArgumentsMethod {
         String name = "Job4j";
         int age = 6;
         ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
     }
 }
