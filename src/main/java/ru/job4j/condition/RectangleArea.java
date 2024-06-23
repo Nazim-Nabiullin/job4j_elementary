@@ -2,13 +2,11 @@ package ru.job4j.condition;
 
 public class RectangleArea {
     public static double heightSquare(double p, double k) {
-        double heightResult = p / (2 * (k + 1));
-        return heightResult;
+        return p / (2 * (k + 1));
     }
 
     public static double lengthSquare(double p, double k) {
-        double lengtResult = p / (2 * (k + 1)) * k;
-        return lengtResult;
+        return p / (2 * (k + 1)) * k;
     }
 
     public static void main(String[] args) {
