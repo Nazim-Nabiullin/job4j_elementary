@@ -57,6 +57,5 @@ class X2Test {
         int expected = 1;
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
-
     }
 }
