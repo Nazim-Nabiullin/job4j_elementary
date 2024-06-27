@@ -16,7 +16,7 @@ class PointTest {
     }
 
     @Test
-    void when12to34Then2dot28() {
+    void when12to34Then2dot82() {
         double expected = 2.82;
         int x1 = 1;
         int y1 = 2;
