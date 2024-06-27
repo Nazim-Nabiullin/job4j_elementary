@@ -7,8 +7,6 @@ public class DummyDot {
             result = "Hi, SmartAss.";
         } else if ("Bye.".equals(question)) {
             result = "See you later.";
-        } else {
-            result = "I don't know, Please, ask another question.";
         }
         return result;
     }
