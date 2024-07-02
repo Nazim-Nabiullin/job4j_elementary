@@ -1,7 +1,5 @@
 package ru.job4j.array;
 
-import com.sun.security.jgss.GSSUtil;
-
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
