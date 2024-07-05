@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class TwoNumberSun {
     public static int[] getIndexes(int[] array, int target) {
-        Arrays.sort(array);
         int left = 0;
         int right = array.length - 1;
         while (left < right) {
