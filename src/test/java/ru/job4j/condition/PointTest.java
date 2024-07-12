@@ -47,4 +47,22 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when56to78Then2dot82() {
+        Point a = new Point(5, 6);
+        Point b = new Point(7, 8);
+        a.distance(b);
+        double expected = 2.82;
+        assertThat(a.distance(b)).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void when18to35Then2dot82() {
+        Point a = new Point(1, 8);
+        Point b = new Point(3, 5);
+        a.distance(b);
+        double expected = 3.60;
+        assertThat(a.distance(b)).isEqualTo(expected, withPrecision(0.01));
+    }
 }
