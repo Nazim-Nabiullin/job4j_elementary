@@ -65,4 +65,13 @@ class PointTest {
         double expected = 3.60;
         assertThat(a.distance(b)).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when000to555Then8dot66() {
+        Point a3 = new Point(0, 0, 0);
+        Point b3 = new Point(5, 5, 5);
+        a3.distance3d(b3);
+        double expected = 8.66;
+        assertThat(a3.distance3d(b3)).isEqualTo(expected, withPrecision(0.01));
+    }
 }
